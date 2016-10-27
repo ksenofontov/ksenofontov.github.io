@@ -63,7 +63,7 @@ function showResult()   {
 for (i=0; i<answ.length;i++) {nok+=answ.charAt(i)=="1"?1:0;}
 if(nok==3) s="ОТЛИЧНО";
 if(nok==2) s="ХОРОШО";
-if(nok==2) s="УДОВЛЕТВОРИТЕЛЬНО";
+if(nok==1) s="УДОВЛЕТВОРИТЕЛЬНО";
 if (nok==0) s="НЕУДОВЛЕТВОРИТЕЛЬНО";
     document.test.s1.
     value="Количество правильных ответов "+nok+". Ваша оценка "+s+".";
